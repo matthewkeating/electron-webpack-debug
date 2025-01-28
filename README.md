@@ -11,8 +11,9 @@ The only things this project adds to the "out-of-the-box" source code generated 
 
 * A `.vscode\launch.json` file
 * A single configuration option, `devtool: 'source-map',`, to the `webpack.renderer.config.js` file
+* A `.gitignore` file (that isn't really meaningful)
 
-Together, these two additions allow debugging the main and renderer processes.
+Together, the first two additions listed above allow debugging the main and renderer processes.
 
 ## Why?
 I recently started programming Electron apps. I am, at best, an amateur developer. I was seeking to create an Electron / Webpack app and, naturally, looking for a way to debug the application along the way. My IDE of choice is VS Code.
